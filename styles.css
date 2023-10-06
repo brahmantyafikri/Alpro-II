@@ -9,12 +9,18 @@ body {
 .profile {
     max-width: 300px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #756363;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+h1 {
+    color: #fff;
+}
 
+p {
+    color: #fff;
+}
 .profile img {
     max-width: 100%;
     border-radius: 50%;
@@ -31,6 +37,6 @@ body {
 }
 
 .profile a {
-    color: #007bff;
+    color: #8eb1e7;
     text-decoration: none;
 }
