@@ -11,15 +11,8 @@ table {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
 table, th, td {
-    <tr>
-		<th>ID</th>
-		<th>Nama Depan</th>
-		<th>Nama Belakang</th>
-		<th>Email 1</th>
-        <th>Email 2</th>
-        <th>Profesi</th>
-	</tr>
     border: 1px solid #ccc;
     padding: 10px;
 }
