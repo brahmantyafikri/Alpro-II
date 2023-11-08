@@ -38,22 +38,18 @@
     </div>
 
     <script>
-        // Kode JavaScript yang Anda sediakan
         function fetchData() {
           const urlInput = document.getElementById('url').value;
           const tableContainer = document.getElementById('table-container');
           const dataTable = document.getElementById('data-table');
 
-          // Buat objek AJAX
           const xhr = new XMLHttpRequest();
           
-          // Atur fungsi penanganan ketika permintaan AJAX selesai
           xhr.onreadystatechange = function() {
             if (xhr.readyState === 4 && xhr.status === 200) {
               // Konversi JSON yang diterima ke objek JavaScript
               const data = JSON.parse(xhr.responseText);
 
-              // Hapus semua baris tabel sebelum menambahkan yang baru
               dataTable.innerHTML = '';
 
               // Buat header tabel
